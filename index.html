@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bootstrap4</title>
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section id="cover">
+    <div id="cover-caption">
+        <div class="container">
+            <div class=".col-sm-10 col-sm-offset-1">
+                <h1 class="display-3">Welcome to Bootstrap</h1>
+                <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab explicabo facere, minima modi nam nulla sequi vitae voluptas! Aliquid, atque consequuntur ea eius est hic ipsa ipsam maxime nostrum similique!</span>
+
+                <form action="" class="form-inline justify-content-center">
+                    <div class="form-group">
+                        <label class="sr-only">Name</label>
+                        <input type="text" class="form-control form-control-lg  mb-2 mr-sm-2" placeholder="Jane Doe">
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only">Email</label>
+                        <input type="text" class="form-control form-control-lg  mb-2 mr-sm-2"
+                               placeholder="janedoe@gmail.com">
+                    </div>
+                    <button type="submit" class="btn btn-success btn-lg mb-2">Okay, go!</button>
+                </form>
+                <br>
+
+                <a href="#nav-main" class="btn btn-outline-secondary btn-sm" role="button">&darr;</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--navbar starts-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav-main">
+    <a class="navbar-brand" href="#">Your Logo</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+<!--navbar ends-->
+<!--carousel starts-->
+<section id="carousel">
+    <div id="carousel-home" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-home" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-home" data-slide-to="1"></li>
+            <li data-target="#carousel-home" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="img/woman-camera.jpg" alt="Woman taking pictures with camera">
+                <div class="carousel-caption">
+                    <h3>A woman with camera</h3>
+                    <p>She is probably taking the picture</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/spiderweb.jpg" alt="A wet spiderweb">
+                <div class="carousel-caption">
+                    <h3>Down came the rain</h3>
+                    <p>And washed the spider out</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/hearthand.jpg" alt="Two hands making a heart">
+                <div class="carousel-caption">
+                    <h3>Making love</h3>
+                    <p>Making hearts with hands</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel-home" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-home" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</section>
+<!--carousel ends-->
+
+<section id="what-we-do">
+    <div class="section-content">
+        <div class="container">
+            <h2>What we do</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda eligendi facilis,
+                incidunt iusto laboriosam magni maiores modi mollitia neque nobis perferendis quaerat quas qui ratione
+                saepe sint veniam veritatis voluptatem?</p>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="card-group">
+                        <div class="card">
+                            <img class="card-img-top" src="img/chalkboard.jpg" alt="A chalkboard">
+                            <div class="card-body">
+                                <h4 class="card-title">Strategy &amp; Planning </h4>
+                                <h6 class="card-subtitle mb-2 text-muted">Support card subtitle</h6>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <button type="button" class="btn btn-outline-success" data-toggle="modal"
+                                        data-target="#myModal">learn more
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="img/working.jpg" alt="Working on laptop">
+                            <div class="card-body">
+                                <h4 class="card-title">Creative &amp; Design </h4>
+                                <h6 class="card-subtitle mb-2 text-muted">Support card subtitle</h6>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+                                    eligendi facilis,
+                                    incidunt iusto laboriosam magni maiores modi mollitia neque nobis perferendis
+                                    quaerat quas qui ratione
+                                    saepe sint veniam veritatis voluptatem?<</p>
+                                <button type="button" class="btn btn-outline-success" data-toggle="modal"
+                                        data-target="#myModal">learn more
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="img/programming.jpg" alt="Fingers typing on keyboard">
+                            <div class="card-body">
+                                <h4 class="card-title">Programming &amp; Technical </h4>
+                                <h6 class="card-subtitle mb-2 text-muted">Support card subtitle</h6>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+                                    eligendi facilis,
+                                    incidunt iusto laboriosam magni maiores modi.<</p>
+                                <button type="button" class="btn btn-outline-success" data-toggle="modal"
+                                        data-target="#myModal">learn more
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <div class="section-content">
+        <div class="container">
+            <div class="col-md-6">
+                <div class="about-text">
+                    <h3>About me</h3>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A asperiores distinctio
+                        dolores, ex ipsa labore, magni mollitia nisi nostrum officiis perspiciatis possimus praesentium
+                        quidem reiciendis sit sunt suscipit, veritatis voluptatem?</p>
+                    <p>Assumenda blanditiis culpa dolor mollitia natus, nostrum ratione voluptatibus. Ab accusamus amet
+                        aut debitis earum eligendi error harum illo incidunt iusto nihil numquam omnis, perspiciatis
+                        provident qui quo quos, soluta.</p>
+                    <h5>Follow me on the web</h5>
+                    <a href="" class="btn btn-sm btn-outline-secondary">twitter</a>
+                    <a href="" class="btn btn-sm btn-outline-secondary">facebook</a>
+                    <a href="" class="btn btn-sm btn-outline-secondary">youtube</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="news">
+    <div class="section-content">
+        <div class="container">
+            <h3>Latest news</h3>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, aspernatur assumenda
+                atque deleniti dignissimos doloremque error ex facilis iusto laboriosam minus perspiciatis quaerat
+                quisquam ratione recusandae sequi similique tempore unde!</p>
+            <hr>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="card-columns">
+                        <div class="card">
+                            <img class="card-img-top" src="img/woman-camera.jpg" alt="woman with camera">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title that wraps to a new line</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                        <div class="card p-3">
+                            <blockquote class="blockquote mb-0 card-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
+                                    ante.</p>
+                                <footer class="blockquote-footer">
+                                    <small>
+                                        Someone famous in <cite title="Source Title">Source Title</cite>
+                                    </small>
+                                </footer>
+                            </blockquote>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="img/stars.jpg" alt="sky full of stars">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to
+                                    additional content.</p>
+                                <p class="card-text">
+                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card bg-primary text-white text-center p-3">
+                            <blockquote class="blockquote mb-0">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+                                <footer class="blockquote-footer text-white">
+                                    <small class="text-white">
+                                        Someone famous in <cite title="Source Title">Source Title</cite>
+                                    </small>
+                                </footer>
+                            </blockquote>
+                        </div>
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to
+                                    additional content.</p>
+                                <p class="card-text">
+                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img" src="img/computer.jpg" alt="table with desktop on it">
+                        </div>
+                        <div class="card p-3 text-right bg-danger text-white">
+                            <blockquote class="blockquote mb-0">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
+                                    ante.</p>
+                                <footer class="blockquote-footer text-white">
+                                    <small class="text-white">
+                                        Someone famous in <cite title="Source Title">Source Title</cite>
+                                    </small>
+                                </footer>
+                            </blockquote>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This card has even longer content than the first to
+                                    show that equal height action.</p>
+                                <p class="card-text">
+                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <nav>
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<footer id="footer-main">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <p>uncopyright 2015. do what you want.</p>
+                <p>coded by <a href="https://github.com/b0char0va">Mona</a></p>
+            </div>
+            <div class="col-sm-3">
+                <ul class="list-unstyled">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <ul class="list-unstyled">
+                    <li><a href="">facebook</a></li>
+                    <li><a href="">linkedin</a></li>
+                    <li><a href="">twitter</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <h6>Tiny header</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis fugit iste itaque nostrum quas
+                    sapiente unde ut veniam vitae. Ad alias doloremque esse facere illo molestias non quod, ratione
+                    recusandae.</p>
+            </div>
+        </div>
+    </div>
+
+
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
